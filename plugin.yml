@@ -1,0 +1,9 @@
+name: RegaRegionSafe
+main: fun.rega.RegaRegionSafe.Main
+version: 1.0.0
+author: TheRega
+website: (vk.com/therega)
+
+
+commands:
+  addregion:

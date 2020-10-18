@@ -1,0 +1,20 @@
+#Плагин разработал TheRega.
+#Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам.
+#Vk: vk.com/therega, группа: vk.com/waterstudio_ru
+
+
+protected-regions: # Регионы которые нужно защитить
+  - Spawn
+
+disabled-commands: # Команды которые запрещены в регионе
+  - //set
+
+disable-build: '&8[&cRegaRegionSafe&8] &cИзвини, ты не можешь ставить блоки в этом регионе!'
+disable-break: '&8[&cRegaRegionSafe&8] &cИзвини, ты не можешь ломать блоки в этом регионе!'
+disable-cmds: '&8[&cRegaRegionSafe&8] &cИзвини, ты не можешь выполнять действия с этим регионом!'
+
+ignored-players: # Игроки на которых не будут действовать ограничения
+  - TheRega
+
+ignored-cmds: # Команды которые можно использовать в регионе
+  - //expand
